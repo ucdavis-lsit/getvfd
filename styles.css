@@ -1,5 +1,6 @@
 * {
-    font-family: 'Poppins', sans-serif;   
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .font-light {
@@ -7,6 +8,10 @@
 }
 .font-bold {
     font-weight: 700;
+}
+
+ul {
+    list-style: none;
 }
 
 header {
@@ -26,6 +31,35 @@ header {
 
 .header-link {
     margin: .5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.chevron::before {
+    content: '';
+    background-image: url('./images/chevron-right.svg');
+    background-size: cover;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: -25px;
+}
+.alert {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 80%;
+    height: 56px;
+    padding: 1rem 1.5rem 1rem 1rem;
+    background-color: white;
+    border-radius: 9999px;
+    box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.12 ), 0 1px 2px rgba( 0, 0, 0, 0.24 );
+
+    overflow: hidden;
+
+    white-space: pre;
 }
 
 .hero {
@@ -184,8 +218,18 @@ header {
 }
 
 .testimonials {
+    display: flex;
+    justify-content: space-between;
     margin: 3rem auto;
-    width: 60%;
+    max-width: 70%;
+}
+.testimonials-textbox {
+    flex: 1;
+    padding: 2rem;
+}
+.testimonials-author {
+    text-align: end;
+    font-weight: 300;
 }
 
 .get-started {

@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     </head>
 
@@ -12,9 +12,8 @@
         <header>
             <h1 class="header-logo">VFD</h1>
             <span class="header-links">
-                <a class="header-link" >About</a>
-                <a class="header-link">Contact</a>
-                <a class="header-link">Try for free</a>
+                <a href="#about" class="header-link" >About</a>
+                <a href="#contact" class="header-link">Contact</a>
             </span>
         </header>
 
@@ -33,7 +32,7 @@
                 </div>
             </div>
             <div style="height: 16vh;">
-                <a href="#connect" class="answerButton">
+                <a href="#contact" class="answerButton">
                     <span class="iconContainer">
                         <img src="./images/phone-call-white.svg" class="call">
                     </span>
@@ -57,20 +56,22 @@
             </div>
         </section>
 
-        <section class="features">
-            <h1 class="features-header">MAXIMIZE YOUR REACH</h1>
+        <section id="about" class="features">
+            <h1 class="features-header">HOW CAN WE HELP?</h1>
 
             <div>
                 <div class="features-section">
                     <div class="features-text">
-                        <h2 class="features-number">01</h2>
-                        <p class="font-bold">Join from anywhere</p>
-                        <p>
-                            Users can join the waiting list from anywhere. No more wading through lines in a crowded hallway.
-                        </p>
+                        <!-- <h2 class="features-number">01</h2> -->
+                        <p class="font-bold">Serve your students</p>
+                        <ul>
+                            <li class="chevron">Students are more likely to get advising if it's online. Tell us what you need, get connected ASAP.</li>
+                            <li class="chevron">Skip the line. Advisors can add custom quick links by season.</li>
+                            <li class="chevron">Privacy by default</li>
+                        </ul>
                     </div>
                     <div class="features-image-container">
-                        <img class="features-image" src="./images/business-3d-browser-window-with-open-web-page.png">
+                        <img class="features-image" src="./images/business-3d-young-people-in-casual-clothes-standing.png">
                     </div>
                 </div>
             </div>
@@ -81,11 +82,13 @@
                         <img class="features-image" src="./images/business-3d-blue-checklist-with-one-red-done-item.png">
                     </div>
                     <div class="features-text">
-                        <h2 class="features-number">02</h2>
-                        <p class="font-bold">Prioritize your queue</p>
-                        <p>
-                            See how long users have waited and their reason for visit. Address the most urgent needs promptly.
-                        </p>
+                        <!-- <h2 class="features-number">02</h2> -->
+                        <p class="font-bold">Empower your advisors</p>
+                        <ul>
+                            <li class="chevron">Student details, automatically</li>
+                            <li class="chevron">Department wide announcements</li>
+                            <li class="chevron">Coming soon: Coordinate with other advisors</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -93,27 +96,37 @@
             <div>
                 <div class="features-section">
                     <div class="features-text">
-                        <h2 class="features-number">03</h2>
-                        <p class="font-bold">Communicate with your users</p>
-                        <p>
-                            Make announcements to the line or direct them to appropriate resources.
-                        </p>
+                        <!-- <h2 class="features-number">03</h2> -->
+                        <p class="font-bold">Improve your workflow</p>
+                        <ul>
+                            <li class="chevron">Data-driven decision-making</li>
+                            <li class="chevron">Coming soon: Advanced reporting (associate data points such as wait times vs concurrent advisors)</li>
+                            <li class="chevron">Coming soon: OASIS integration</li>
+                        </ul>
                     </div>
                     <div class="features-image-container">
-                        <img class="features-image" src="./images/business-3d-red-and-white-megaphone.png">
+                        <img class="features-image" src="./images/business-3d-three-grey-metal-gears.png">
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="testimonials">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend id ante a congue. Nulla facilisi. Vestibulum tortor odio, tristique nec rutrum ut, gravida ac tortor. Mauris id metus mattis, accumsan ante et, venenatis libero. Fusce at risus dolor. Morbi sit amet porta lacus, eu pulvinar ipsum. Curabitur pretium molestie augue vel malesuada. Mauris et ante a metus efficitur ullamcorper. Integer a dui ullamcorper, scelerisque ipsum in, bibendum sapien. Vestibulum viverra eleifend turpis nec condimentum. Nam nec efficitur eros, eget lacinia nunc. Sed metus arcu, molestie et sem eu, aliquam mattis nulla. Vivamus id felis lacinia, elementum nulla dignissim, laoreet urna.
-            </p>
-            <p class="font-light"> - A Happy Customer</p>
+            <div class="testimonials-textbox">
+                <p>
+                    VFD has really helped our department transition out of the pandemic. The students love the convenience and we are able to increase access and equity to those who are unable to get on campus!
+                </p>
+                <p class="testimonials-author"> - A Happy Customer</p>
+            </div>
+            <div class="testimonials-textbox">
+                <p>
+                    This is so much better than having a long-lived meeting room. Students really appreciate knowing where they're in line and getting some transparency. And the staff love the flexiblity that the system offers.
+                </p>
+                <p class="testimonials-author"> - Another Customer</p>
+            </div>
         </section>
 
-        <section id="connect" class="get-started">
+        <section id="contact" class="get-started">
             <h1>
                 Ready to Connect?
             </h1>
@@ -122,7 +135,7 @@
 
         <footer>
             <p class="footer-text">
-                Crafted by the Letters and Science Application Development Team 🐶
+                Developed by the Letters and Science Application Development Team 👋
             </p>
         </footer>
     </body>
