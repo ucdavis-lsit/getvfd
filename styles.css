@@ -199,7 +199,7 @@ header {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 50%;
 }
 .features-header {
     margin-left: 3rem;
@@ -208,13 +208,13 @@ header {
 }
 .features-section {
     display: flex;
-    justify-content: space-between; 
+    /* justify-content: space-between;  */
     align-items: center;
     margin: 5rem 0;
 }
 .features-text {
     margin: 3rem;
-    width: 80%;
+    width: 60%;
 }
 .features-image-container {
     width: 100%;
