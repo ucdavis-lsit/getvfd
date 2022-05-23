@@ -102,10 +102,11 @@ header {
     /* min-height: 200px; */
     /* max-width: px; */
     margin-top: 1rem;
-    margin-right: 10%;
+    /* margin-right: 10%; */
     margin-bottom: 1rem;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    margin-left: 10%;
+    /* -webkit-transform: scaleX(-1); */
+    /* transform: scaleX(-1); */
 }
 .break {
     flex-basis: 100%;
