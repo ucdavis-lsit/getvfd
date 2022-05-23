@@ -86,18 +86,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 3rem auto;
     width: 80%;
 }
 
 .hero-text {
     margin-left: 10%;
-    padding-top: 3rem;
-    padding-left: 5rem;
 }
 
 .hero-subtext {
-    /* width: 50%; */
     padding: 2rem 0;
 }
 
@@ -111,10 +108,6 @@ header {
     /* -webkit-transform: scaleX(-1); */
     /* transform: scaleX(-1); */
 }
-.break {
-    flex-basis: 100%;
-    height: 0;
-  }
 
 .hero-action {
     display: flex;
@@ -128,7 +121,7 @@ header {
     align-items: center;
     justify-content: center;
 
-    /* position: relative; */
+    position: relative;
     margin-bottom: 2rem;
     padding: 1rem 2rem 1rem 1rem;
     background-color: 16a34a;
@@ -226,6 +219,7 @@ header {
 }
 .features-image {
     padding: 4rem;
+    max-height: 512px;
 }
 .features-number {
     font-size: 3rem;
