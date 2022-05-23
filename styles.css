@@ -1,6 +1,6 @@
 * {
     font-family: 'Inter', sans-serif;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 .font-light {
@@ -24,9 +24,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #022851;
+    background-color: #FFF9E5;
     padding: 0 1rem;
-    color: #FFFFFF;
+    color: #002851;
 }
 
 .header-logo {
@@ -37,7 +37,7 @@ header {
 
 .header-link {
     margin: .5rem;
-    color: white;
+    color: 002851;
     text-decoration: none;
 }
 
@@ -241,21 +241,22 @@ header {
     font-weight: 300;
 }
 
-.get-started {
+.connect {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
-    scroll-behavior: smooth;
+    color: white;
+    background-color:   #022851;
+    height: 50%;
 }
 
 .pill {
-    margin: 1rem;
+    margin: 3rem;
     padding: .75rem;
     border-radius: .75rem;
-    background-color: #022851;
-    color: #FFFFFF;
+    background-color: white;
+    color: #022851;
     text-decoration: none;
 }
 
@@ -263,5 +264,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
+    /* margin: 2rem; */
+    padding: 2rem;
+    background-color:   #022851;
+    color: white;
 }
