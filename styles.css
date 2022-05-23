@@ -182,7 +182,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 2rem;
+    margin: 5rem 0;
 }
 .customer-logos {
     display: flex;
@@ -210,9 +210,11 @@ header {
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    margin: 5rem 0;
 }
 .features-text {
-    margin: 3rem; width: 80%;
+    margin: 3rem;
+    width: 80%;
 }
 .features-image-container {
     width: 100%;
@@ -229,7 +231,7 @@ header {
 .testimonials {
     display: flex;
     justify-content: space-between;
-    margin: 3rem auto;
+    margin: 5rem auto;
     max-width: 70%;
 }
 .testimonials-textbox {
@@ -248,7 +250,7 @@ header {
     align-items: center;
     color: white;
     background-color:   #022851;
-    height: 50%;
+    height: 50vh;
 }
 
 .pill {
